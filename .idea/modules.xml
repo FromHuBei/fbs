@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alipay-server/demo (1) (com.fbs.alipay).iml" filepath="$PROJECT_DIR$/alipay-server/demo (1) (com.fbs.alipay).iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuebao-server/alipay-server.iml" filepath="$PROJECT_DIR$/yuebao-server/alipay-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbs-interface/alipay.iml" filepath="$PROJECT_DIR$/fbs-interface/alipay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+    </modules>
+  </component>
+</project>

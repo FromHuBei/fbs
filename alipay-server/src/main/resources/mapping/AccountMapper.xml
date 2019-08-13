@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fbs.alipay.demo.mapper.AccountMapper">
+
+    <resultMap id="BaseResultMap" type="com.fbs.service.entity.Account">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="userId" jdbcType="VARCHAR" property="userId" />
+        <result column="amount" jdbcType="DOUBLE" property="amount" />
+        <result column="createTime" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="updateTime" jdbcType="TIMESTAMP" property="updateTime" />
+    </resultMap>
+
+    <insert id="insertAccount" parameterType="com.fbs.service.entity.Account" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO account ( id,userId,amount)
+        VALUES ( #{id}, #{userId, jdbcType=VARCHAR}, #{amount, jdbcType=DOUBLE} )
+    </insert>
+
+    <update id="updateAccountByUserId" parameterType="com.fbs.service.entity.Account">
+	    update account set account.amount=#{amount} where account.userId=#{userId}
+	</update>
+
+</mapper>

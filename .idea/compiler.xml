@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="interface" />
+        <module name="springboot-mybatis" />
+        <module name="yuebao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alipay" target="1.8" />
+      <module name="demo" target="1.5" />
+      <module name="fbs-interface" target="1.5" />
+      <module name="interface" target="1.5" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="yuebao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

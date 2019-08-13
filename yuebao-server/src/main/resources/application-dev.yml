@@ -1,0 +1,13 @@
+server:
+  port: 8124
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 15672
+    username: guest
+    password: guest
+  datasource:
+    url: jdbc:mysql://rm-m5e300nb024e453p2ko.mysql.rds.aliyuncs.com:3306/lbc
+    driver-class-name: com.mysql.jdbc.Driver
+    username: fineway
+    password: 8s9c2VjA2q38MG

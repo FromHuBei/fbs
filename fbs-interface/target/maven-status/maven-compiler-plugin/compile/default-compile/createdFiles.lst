@@ -1,0 +1,6 @@
+com\fbs\service\AccountService.class
+com\fbs\service\entity\Message.class
+com\fbs\service\entity\User.class
+com\fbs\service\entity\Account.class
+com\fbs\service\entity\BaseEntity.class
+com\fbs\service\MessageService.class
